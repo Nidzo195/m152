@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+}
+nav ul li, .car1 p, .car2 img, #contactForm, #contactAlen, #ceo, #history, #history img, #history .text, .fa-chevron-left, #designed, footer img, #footerLiks{
+  float: left;
+}
+nav ul li{
+  list-style-type: none;
+  padding: 0px 0px 0px 20px;
+}
+li a{
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+li a:hover{
+  text-decoration: none;
+}
+li a:hover, #contactAlen a{
+  color: #ffffff;
+}
+i{
+  font-size: 2.7rem;
+}
+nav{
+  z-index: 999;
+}
+form input{
+  background: rgba(0,0,0,0);
+  border: 0px;
+  border-bottom: 2px solid #ffffff;
+  margin: 0 15px;
+}
+form textarea, form button, form select, form option{
+  background-color: rgba(0,0,0,0);
+}
+form button{
+    border: 0px;
+    border-bottom: 2px solid #ffffff;
+    padding: 5px;
+    vertical-align: bottom;
+    float: right;
+}
+form button:hover{
+  color: #3A3A3A;
+  background-color: #ffffff;
+  border: 2px
+}
+form textarea::placeholder{
+  color: #ffffff;
+}
+#active{
+  font-weight: bold;
+  text-decoration: underline;
+}
+#navbar{
+  background-color: #2E2EFE;
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  height: 70px;
+}
+
+/* footer hr,  */
+#information hr{
+  margin: 10px 7%;
+  color: rgb(41,41,41);
+  border-color:rgb(41,41,41);
+  border-style:solid;
+}
+
+
+#interduction button{
+  padding: 20px 30px;
+  border-radius: 45px;
+  font-size: 1.7rem;
+  background-color: rgba(41,41,41,0.9);
+  border: 3px black solid;
+}
+
+#interduction{
+    padding: 320px 0 0 80px;
+}
+#information{
+  margin-bottom: 5%;
+}
+#information hr{
+  margin: 0% 79% 0% 9%;
+}
+#information h1, #information p{
+  color: black;
+  margin: 2% 0% 0% 10%;
+  max-width: 1400px;
+}
+#start{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+video{
+  position: relative;
+  margin: 0 10%;
+  width: 80%;
+}
+#product h2, #product p{
+  color: #000000;
+  max-width: 60%;
+}
+#product img{
+  width: 25%;
+  height: 25%;
+}
+.car1{
+  background-color: #F5F5F5;
+}
+.car1, .car2{
+  margin-top: 30px;
+  padding: 40px 10%;
+  min-height: 320px;
+}
+.car1 img{
+  margin-top: -25px;
+  float: right;
+}
+.car2, footer hr{
+  clear: both;
+}
+.car2 h2, .car2 p{
+  margin-left: 30%;
+}
+
+#aboutWrapper{
+  height: 100vh;
+}
+#ceo{
+  margin: 100px 500px 0px 500px;
+  max-width: 1000px;
+  background-color: rgba(41, 41, 41, 0.8);
+  padding: 25px;
+}
+#jobslogan{
+  margin: 50px 0px 0px 500px;
+  max-width: 1000px;
+  background-color: rgba(41, 41, 41, 0.8);
+  padding: 25px;
+}
+
+
+#history .text{
+  max-width: 400px;
+  padding-left: 25px;
+}
+#history{
+  margin: 70px 0px 0px 200px;
+  background-color: rgba(41, 41, 41, 0.8);
+  padding: 25px;
+}
+#goals{
+  visibility: hidden;
+}
+.fa-chevron-right{
+  color: rgba(41, 41, 41, 1);
+  margin: 185px 0px 0px 20px;
+}
+.fa-chevron-left{
+  color: rgba(41, 41, 41, 1);
+  margin: 185px 20px 0px 0px;
+  visibility: hidden;
+  opacity: 0.0;
+}
+.fa-circle{
+  color: rgba(41, 41, 41, 1);
+  font-size: 26px;
+}
+#circles{
+  margin: 125px 0px 0px 1250px;
+}
+
+
+#contactWrapper{
+  height: 100vh;
+}
+#contactAlen{
+  max-width: 360px;
+  margin: 150px 0px 0px 300px;
+}
+#contactAlen, #contactForm{
+  background-color: rgba(41, 41, 41, 0.4);
+  padding: 25px;
+}
+#contactForm{
+    max-width: 700px;
+    margin: 150px 0px 0px 9vw;
+    height: 370px;
+}
+#contactForm textarea{
+  margin: 10px 0;
+  resize: none;
+}
+#contactAlen td{
+  padding-left: 20px;
+}
+#contactWrapper h2, #ceo h2, #history h2{
+  text-decoration: underline;
+}
+select#reason option{
+    background-color: rgba(41, 41, 41, 0.6);
+}
+
+
+
+footer{
+  background-color: #151515;
+  height: 60px;
+}
+footer a{
+  color: #ffffff;
+}
+footer a:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+footer p, footer img{
+  margin-left: 20%;
+}
+footer p{
+  margin-top: 20px;
+}
+footer img{
+margin-top: 15px;
+}
+
+@media only screen and (max-width: 1900px){
+  #circles{
+    visibility: hidden;
+  }
+  #history{
+    max-width: 400px;
+    margin-left: 0px;
+  }
+  #contactAlen{
+    max-width: 360px;
+    margin: 150px 0px 0px 5vw;
+  }
+}
+
+
+
+
+
+
+
+.dropdown li {
+  float: none;
+  align-content: left;
+}
+
+.dropdown:hover {
+  background-color: #ff007f;
+}
+
+.navbar{
+  background-color: #2E2EFE;
+  text-align: center;
+  font-size: x-large;
+transition: background-color .3s;
+}
+
+
+
+
+
+
+
+#nav ul {
+  list-style: none;
+  background-color: #2E2EFE;
+  text-align: center;
+  font-size: x-large;
+  padding: 20;
+  margin: 0;
+}
+
+#nav li {
+    display: inline-block;
+    margin-right: -4px;
+    width: 230px;
+
+}
+
+
+
+#nav a:hover {
+  background-color: #ff007f;
+}
+
+#nav a.active {
+  background-color: #ff007f;
+  color: #444;
+  cursor: default;
+}
+
+
+
+.navbar > ul > li > a {
+  list-style: none;
+  background-color: #2E2EFE;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+#nav li ul {
+  position: absolute;
+  display: none;
+  width: inherit;
+}
+
+#nav li:hover ul {
+  display: block;
+}
+
+#nav li ul li {
+  display: block;
+}
+  
+.nav li li {
+  font-size: .8em;
+}
+
+
+#body{
+  background:#daa520;
+}
+
+#navlogo{
+  background-color: #daa520;
+}
+
+#countries:hover{
+  background-color: #00cd00 !important;
+}
+
+#slogan{
+  padding-top: 70px;
+  padding-right: 30px;
+  padding-left: 80px;
+  text-align: center;
+  color: #00cd00;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+
+#myform{
+
+  padding-top: 100px;
+  padding-left: -300px;
+  padding-right: 300px;
+  padding-bottom:200px;
+
+}
+
+.jobs{
+
+  padding-top: 60px;
+
+}
+
+#MeinFormular{
+
+  padding-top: 100px;
+  padding-left: 850px;
+  padding-right: 300px;
+  padding-bottom:200px;
+}
